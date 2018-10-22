@@ -1,0 +1,244 @@
+[21/Oct/2018 04:02:01] ERROR [django.request:118] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/luciano/djangogirls/blog/views.py", line 6, in post_list
+    return render(request, 'blog/post_list.html', {})
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_list.html
+[21/Oct/2018 04:02:01] ERROR [django.server:124] "GET / HTTP/1.1" 500 27
+[21/Oct/2018 04:02:01] WARNING [django.request:93] Not Found: /favicon.ico
+[21/Oct/2018 04:02:01] WARNING [django.server:124] "GET /favicon.ico HTTP/1.1" 404 85
+[21/Oct/2018 04:02:02] ERROR [django.request:118] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/luciano/djangogirls/blog/views.py", line 6, in post_list
+    return render(request, 'blog/post_list.html', {})
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_list.html
+[21/Oct/2018 04:02:02] ERROR [django.server:124] "GET / HTTP/1.1" 500 27
+[21/Oct/2018 04:02:02] WARNING [django.request:93] Not Found: /favicon.ico
+[21/Oct/2018 04:02:02] WARNING [django.server:124] "GET /favicon.ico HTTP/1.1" 404 85
+[21/Oct/2018 04:02:07] ERROR [django.request:118] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/luciano/djangogirls/blog/views.py", line 6, in post_list
+    return render(request, 'blog/post_list.html', {})
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_list.html
+[21/Oct/2018 04:02:07] ERROR [django.server:124] "GET / HTTP/1.1" 500 27
+[21/Oct/2018 04:02:07] WARNING [django.request:93] Not Found: /favicon.ico
+[21/Oct/2018 04:02:07] WARNING [django.server:124] "GET /favicon.ico HTTP/1.1" 404 85
+[21/Oct/2018 04:02:10] ERROR [django.request:118] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/luciano/djangogirls/blog/views.py", line 6, in post_list
+    return render(request, 'blog/post_list.html', {})
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_list.html
+[21/Oct/2018 04:02:10] ERROR [django.server:124] "GET / HTTP/1.1" 500 27
+[21/Oct/2018 04:02:10] WARNING [django.request:93] Not Found: /favicon.ico
+[21/Oct/2018 04:02:10] WARNING [django.server:124] "GET /favicon.ico HTTP/1.1" 404 85
+[21/Oct/2018 04:02:23] ERROR [django.request:118] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/luciano/djangogirls/blog/views.py", line 6, in post_list
+    return render(request, 'blog/post_list.html', {})
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_list.html
+[21/Oct/2018 04:02:23] ERROR [django.server:124] "GET / HTTP/1.1" 500 27
+[21/Oct/2018 04:02:23] WARNING [django.request:93] Not Found: /favicon.ico
+[21/Oct/2018 04:02:23] WARNING [django.server:124] "GET /favicon.ico HTTP/1.1" 404 85
+[21/Oct/2018 04:02:23] ERROR [django.request:118] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/luciano/djangogirls/blog/views.py", line 6, in post_list
+    return render(request, 'blog/post_list.html', {})
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_list.html
+[21/Oct/2018 04:02:23] ERROR [django.server:124] "GET / HTTP/1.1" 500 27
+[21/Oct/2018 04:02:23] WARNING [django.request:93] Not Found: /favicon.ico
+[21/Oct/2018 04:02:23] WARNING [django.server:124] "GET /favicon.ico HTTP/1.1" 404 85
+[21/Oct/2018 04:02:23] ERROR [django.request:118] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/luciano/djangogirls/blog/views.py", line 6, in post_list
+    return render(request, 'blog/post_list.html', {})
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_list.html
+[21/Oct/2018 04:02:23] ERROR [django.server:124] "GET / HTTP/1.1" 500 27
+[21/Oct/2018 04:02:24] WARNING [django.request:93] Not Found: /favicon.ico
+[21/Oct/2018 04:02:24] WARNING [django.server:124] "GET /favicon.ico HTTP/1.1" 404 85
+[21/Oct/2018 04:02:24] ERROR [django.request:118] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/luciano/djangogirls/blog/views.py", line 6, in post_list
+    return render(request, 'blog/post_list.html', {})
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_list.html
+[21/Oct/2018 04:02:24] ERROR [django.server:124] "GET / HTTP/1.1" 500 27
+[21/Oct/2018 04:02:24] WARNING [django.request:93] Not Found: /favicon.ico
+[21/Oct/2018 04:02:24] WARNING [django.server:124] "GET /favicon.ico HTTP/1.1" 404 85
+[21/Oct/2018 04:02:24] ERROR [django.request:118] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/luciano/djangogirls/blog/views.py", line 6, in post_list
+    return render(request, 'blog/post_list.html', {})
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_list.html
+[21/Oct/2018 04:02:24] ERROR [django.server:124] "GET / HTTP/1.1" 500 27
+[21/Oct/2018 04:02:24] WARNING [django.request:93] Not Found: /favicon.ico
+[21/Oct/2018 04:02:24] WARNING [django.server:124] "GET /favicon.ico HTTP/1.1" 404 85
+[21/Oct/2018 04:03:50] DEBUG [django.db.backends:111] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[21/Oct/2018 04:03:50] DEBUG [django.db.backends:111] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[21/Oct/2018 04:03:53] ERROR [django.request:118] Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/luciano/djangogirls/blog/views.py", line 6, in post_list
+    return render(request, 'blog/post_list.html', {})
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_list.html
+[21/Oct/2018 04:03:53] DEBUG [django.db.backends:111] (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2018-10-21 07:03:53.206928' AND "django_session"."session_key" = 'ldyaow80upb1lk20xpxhyz6o7x7wv5rd'); args=('2018-10-21 07:03:53.206928', 'ldyaow80upb1lk20xpxhyz6o7x7wv5rd')
+[21/Oct/2018 04:03:53] DEBUG [django.db.backends:111] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[21/Oct/2018 04:03:53] ERROR [django.server:124] "GET / HTTP/1.1" 500 81623
+[21/Oct/2018 04:03:53] DEBUG [django.template:878] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/urls/resolvers.py", line 527, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'blog.urls' from '/home/luciano/djangogirls/blog/urls.py'> (None:None) ''>, <URLPattern '' [name='post_list']>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/base.py", line 849, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/luciano/djangogirls/myvenv/lib/python3.6/site-packages/django/template/base.py", line 856, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+[21/Oct/2018 04:03:53] WARNING [django.request:93] Not Found: /favicon.ico
+[21/Oct/2018 04:03:53] WARNING [django.server:124] "GET /favicon.ico HTTP/1.1" 404 2137
